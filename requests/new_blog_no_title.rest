@@ -1,0 +1,8 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "author": "fullstack",
+  "url": "https://fullstack-hy.github.io",
+  "likes": "11"
+}
