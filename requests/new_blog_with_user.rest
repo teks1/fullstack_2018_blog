@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "title": "New blog with user",
+  "author": "fullstack",
+  "url": "https://fullstack-hy.github.io",
+  "likes": 12,
+  "userId": "5a9056a4d1d39a7796dfce"
+}
