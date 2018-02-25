@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI1YTkwNTZhNGQxZDM5YTc3OTZkZmM4YWUiLCJpYXQiOjE1MTk1ODExNjJ9.0kanWUEp80i-52vgJz5RrWozIpE6Tuq9dF8XCuKglW4
+
+{
+  "title": "New blog with auth",
+  "author": "fullstack",
+  "url": "https://fullstack-hy.github.io",
+  "likes": 1222
+}

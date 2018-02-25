@@ -1,0 +1,9 @@
+PUT http://localhost:3003/api/blogs/5a9056a58212247796b6f9c6
+Content-Type: application/json
+
+{
+  "title": "New blog",
+  "author": "fullstack",
+  "url": "https://fullstack-hy.github.io",
+  "likes": 100
+}
